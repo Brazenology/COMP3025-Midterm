@@ -28,20 +28,76 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
     //plus/minus buttons
-    
-    
     @IBAction func minusItem1Click(sender: AnyObject) {
         if (listItemQuantity1 > 0) {
-        listItemQuantity1--
-        listItem1.text = String(listItemQuantity1)
+            listItemQuantity1--
+            listItem1.text = String(listItemQuantity1)
         }
     }
     
     @IBAction func plusItem1Click(sender: AnyObject) {
         listItemQuantity1++
-            print(listItemQuantity1)
         listItem1.text = String(listItemQuantity1)
+    }
+    
+    
+    @IBAction func minusItem2Click(sender: AnyObject) {
+        if (listItemQuantity2 > 0) {
+            listItemQuantity2--
+            listItem2.text = String(listItemQuantity2)
+        }
+    }
+    
+    
+    @IBAction func plusItem2Click(sender: AnyObject) {
+        listItemQuantity2++
+        listItem2.text = String(listItemQuantity2)
+    }
+    
+    
+    @IBAction func minusItem3Click(sender: AnyObject) {
+        if (listItemQuantity3 > 0) {
+            listItemQuantity3--
+            listItem3.text = String(listItemQuantity3)
+        }
+    }
+    
+    
+    @IBAction func plusItem3Click(sender: AnyObject) {
+        listItemQuantity3++
+        listItem3.text = String(listItemQuantity3)
+    }
+    
+    
+    @IBAction func minusItem4Click(sender: AnyObject) {
+        if (listItemQuantity4 > 0) {
+            listItemQuantity4--
+            listItem4.text = String(listItemQuantity4)
+        }
+
+    }
+    
+    
+    @IBAction func plusItem4Click(sender: AnyObject) {
+        listItemQuantity4++
+        listItem4.text = String(listItemQuantity4)
+    }
+    
+    
+    @IBAction func minusItem5Click(sender: AnyObject) {
+        if (listItemQuantity5 > 0) {
+            listItemQuantity5--
+            listItem5.text = String(listItemQuantity5)
+        }
+
+    }
+    
+    
+    @IBAction func plusItem5Click(sender: AnyObject) {
+        listItemQuantity5++
+        listItem5.text = String(listItemQuantity5)
     }
 
 
