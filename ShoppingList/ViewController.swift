@@ -3,7 +3,7 @@
 //  ShoppingList
 //
 //  Created by student on 2016-02-26.
-//  Copyright © 2016 student. All rights reserved.
+//  Copyright © 2016 Brendan Kallio. All rights reserved.
 //
 
 import UIKit
@@ -76,7 +76,6 @@ class ViewController: UIViewController {
             listItemQuantity4--
             listItem4.text = String(listItemQuantity4)
         }
-
     }
     
     
@@ -97,6 +96,21 @@ class ViewController: UIViewController {
     
     @IBAction func plusItem5Click(sender: AnyObject) {
         listItemQuantity5++
+        listItem5.text = String(listItemQuantity5)
+    }
+    
+    //Resets all item quantities to zero
+    @IBAction func cancelButtonClick(sender: AnyObject) {
+        listItemQuantity1 = 0
+        listItemQuantity2 = 0
+        listItemQuantity3 = 0
+        listItemQuantity4 = 0
+        listItemQuantity5 = 0
+        
+        listItem1.text = String(listItemQuantity1)
+        listItem2.text = String(listItemQuantity2)
+        listItem3.text = String(listItemQuantity3)
+        listItem4.text = String(listItemQuantity4)
         listItem5.text = String(listItemQuantity5)
     }
 

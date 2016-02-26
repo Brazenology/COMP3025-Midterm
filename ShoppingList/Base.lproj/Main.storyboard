@@ -197,6 +197,15 @@
                                     <action selector="plusItem1Click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cRa-ZW-4TE"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBk-jK-2L5">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="292" y="198" width="50" height="21"/>
+                                </variation>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrj-kJ-IjP">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -366,16 +375,10 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="220" y="519" width="165" height="61"/>
                                 </variation>
+                                <connections>
+                                    <action selector="cancelButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bkr-2l-24A"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBk-jK-2L5">
-                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="292" y="198" width="50" height="21"/>
-                                </variation>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -404,6 +407,7 @@
                                 <exclude reference="YND-uu-hj7"/>
                                 <exclude reference="obd-yn-DyE"/>
                                 <exclude reference="wgd-a4-RbU"/>
+                                <exclude reference="JBk-jK-2L5"/>
                                 <exclude reference="qrj-kJ-IjP"/>
                                 <exclude reference="oA9-sQ-X8q"/>
                                 <exclude reference="wy0-7e-jZ6"/>
@@ -418,7 +422,6 @@
                                 <exclude reference="MWf-VN-3tb"/>
                                 <exclude reference="8Z4-XN-jLb"/>
                                 <exclude reference="bcf-2O-Pfj"/>
-                                <exclude reference="JBk-jK-2L5"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="Edi-Ym-2he"/>
@@ -447,6 +450,7 @@
                                 <include reference="YND-uu-hj7"/>
                                 <include reference="obd-yn-DyE"/>
                                 <include reference="wgd-a4-RbU"/>
+                                <include reference="JBk-jK-2L5"/>
                                 <include reference="qrj-kJ-IjP"/>
                                 <include reference="oA9-sQ-X8q"/>
                                 <include reference="wy0-7e-jZ6"/>
@@ -461,7 +465,6 @@
                                 <include reference="MWf-VN-3tb"/>
                                 <include reference="8Z4-XN-jLb"/>
                                 <include reference="bcf-2O-Pfj"/>
-                                <include reference="JBk-jK-2L5"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="Edi-Ym-2he"/>
