@@ -179,6 +179,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="249" y="194" width="40" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="minusItem1Click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P5v-69-fWu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgd-a4-RbU">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -332,7 +335,7 @@
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="15" y="507" width="165" height="61"/>
+                                    <rect key="frame" x="15" y="519" width="165" height="61"/>
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcf-2O-Pfj">
@@ -343,7 +346,7 @@
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="220" y="507" width="165" height="61"/>
+                                    <rect key="frame" x="220" y="519" width="165" height="61"/>
                                 </variation>
                             </button>
                         </subviews>
@@ -440,10 +443,17 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="listItem1" destination="JBk-jK-2L5" id="Rpi-Ax-0fx"/>
+                        <outlet property="listItem2" destination="wy0-7e-jZ6" id="gmk-wZ-o99"/>
+                        <outlet property="listItem3" destination="FFT-1z-GfC" id="FfZ-j9-4Pn"/>
+                        <outlet property="listItem4" destination="02n-Il-oxg" id="yA1-6A-7GY"/>
+                        <outlet property="listItem5" destination="MWf-VN-3tb" id="9mg-Ux-Oeq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="447" y="428"/>
+            <point key="canvasLocation" x="753" y="436"/>
         </scene>
     </scenes>
 </document>
