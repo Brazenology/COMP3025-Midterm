@@ -324,6 +324,28 @@
                                     <rect key="frame" x="292" y="444" width="50" height="21"/>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Z4-XN-jLb">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="15" y="507" width="165" height="61"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcf-2O-Pfj">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="220" y="507" width="165" height="61"/>
+                                </variation>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -365,6 +387,8 @@
                                 <exclude reference="SUv-cn-xCo"/>
                                 <exclude reference="8Mr-eG-EeO"/>
                                 <exclude reference="MWf-VN-3tb"/>
+                                <exclude reference="8Z4-XN-jLb"/>
+                                <exclude reference="bcf-2O-Pfj"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="Edi-Ym-2he"/>
@@ -406,6 +430,8 @@
                                 <include reference="SUv-cn-xCo"/>
                                 <include reference="8Mr-eG-EeO"/>
                                 <include reference="MWf-VN-3tb"/>
+                                <include reference="8Z4-XN-jLb"/>
+                                <include reference="bcf-2O-Pfj"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="Edi-Ym-2he"/>
