@@ -24,23 +24,24 @@ class ViewController: UIViewController {
     var listItemQuantity4 = 0
     var listItemQuantity5 = 0
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
     //plus/minus buttons
     
     
     @IBAction func minusItem1Click(sender: AnyObject) {
         if (listItemQuantity1 > 0) {
-            listItemQuantity1--
+        listItemQuantity1--
+        listItem1.text = String(listItemQuantity1)
         }
-        listItem1.text = listItemQuantity1
     }
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func plusItem1Click(sender: AnyObject) {
+        listItemQuantity1++
+            print(listItemQuantity1)
+        listItem1.text = String(listItemQuantity1)
     }
 
 
